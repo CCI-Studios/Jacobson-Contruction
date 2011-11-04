@@ -28,9 +28,11 @@
 
 	<positions>
 		<position>header</position>
-		<position>sidebar</position>
+		<position>masthead</position>
+		<position>content</position>
 		<position>bottom</position>
 		<position>footer</position>
+		<position>copyright</position>
 	</positions>
 
 	<config>
