@@ -61,6 +61,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 		<div id="main">
 			<aside>
+				Hello is this working?
 				<jdoc:include type="modules" name="left" style="xhtml" />
 			</aside>
 
