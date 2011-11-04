@@ -55,24 +55,41 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 <body class="<?= $menu ?>">
 
 	<div id="wrapper">
-		<header>
-			<jdoc:include type="modules" name ="header" style="xhtml" />
-		</header>
-
-		<div id="main">
-			<aside>
-				Hello is this working?
-				<jdoc:include type="modules" name="left" style="xhtml" />
-			</aside>
-
-			<article>
+		<div class="container">
+			<div id="header">
+				<jdoc:include type="modules" name="header" style="xhtml" />
+				<div class="clear"></div>
+			</div>
+			
+			<div id="masthead">
+				<jdoc:include type="modules" name="masthead" style="xhtml" />
+			</div>
+			
+			<?php if ($this->countModules('content')): ?>
+			<div id="content">
 				<jdoc:include type="component" />
-			</article>
+			</div>
+			<?php endif; ?>
+		
+			<?php if ($this->countModules('content')): ?>
+			<div id="bottom">
+				<jdoc:include type="modules" name="bottom" style="xhtml" />
+			</div>
+			<?php endif; ?>
+		
+			<div id="footer">
+				<jdoc:include type="modules" name="footer" style="xhtml" />
+			</div>
+		
+			<div id="copyright">
+					<!-- <span class="left">&copy; <?php echo date('Y') ?>Jacobson Construction. All Rights Reserved.</span>
+										<span class="right"><a href="http://ccistudios.com">Site by CCI Studios</a></span> -->
+			</div>
 		</div>
-
-		<footer>
-			<jdoc:include type="modules" name="footer" style="xhtml" />
-		</footer>
+	</div>
+		
+		
+		
 	</div>
 
 	<div class="hidden">

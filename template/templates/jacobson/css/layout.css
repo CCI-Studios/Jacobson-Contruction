@@ -1,1 +1,15 @@
 /* layout */
+
+body {
+	background: #000000 url('../images/bg_repeat.jpg') top center repeat-x;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+#wrapper {
+	background: url('../images/bg_wrapper.jpg') no-repeat center;
+	height: 492px;
+}
