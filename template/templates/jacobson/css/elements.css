@@ -6,10 +6,13 @@ body, select, input, textarea {
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
+
 h1, h2, h3, h4, h5, h6 { 
+	font-family: Abadi MT Condensed Light, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 18px;
-	color: #050505; }
+	color: #050505;
+	margin-top: 0; }
 
 a, a:active, a:visited {
 	text-decoration: none;
@@ -27,4 +30,12 @@ a:hover {
 .moduletable_hmenu a:hover {
 	color: #050505;
 	text-decoration: none;
+}
+
+#sidebar h3 {
+	text-align: center;
+}
+
+#copyright a {
+	color: #ffffff;
 }

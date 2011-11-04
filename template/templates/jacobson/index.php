@@ -67,15 +67,24 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 			
 			<div id="masthead">
 				<jdoc:include type="modules" name="masthead" style="xhtml" />
+				<div class="clear"></div>
 			</div>
 			
-			<?php if ($this->countModules('content')): ?>
-			<div id="content">
-				<jdoc:include type="component" />
+			<?php if ($page_sfx !== '_hidden'): ?>
+			<div id="body">
+				<div>
+					<div id="content">
+						<jdoc:include type="component" />
+					</div>
+					<div id="sidebar">
+						<jdoc:include type="modules" name="sidebar" style="xhtml" />
+					</div>
+					<div class="clear"></div>
+				</div>
 			</div>
 			<?php endif; ?>
 		
-			<?php if ($this->countModules('content')): ?>
+			<?php if ($this->countModules('bottom')): ?>
 			<div id="bottom">
 				<jdoc:include type="modules" name="bottom" style="xhtml" />
 			</div>
@@ -86,8 +95,8 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 			</div>
 		
 			<div id="copyright">
-					<!-- <span class="left">&copy; <?php echo date('Y') ?>Jacobson Construction. All Rights Reserved.</span>
-										<span class="right"><a href="http://ccistudios.com">Site by CCI Studios</a></span> -->
+					<span class="left">&copy; <?php echo date('Y') ?> Jacobson Construction. All Rights Reserved.</span>
+					<span class="right"><a href="http://ccistudios.com">Site by CCI Studios</a></span>
 			</div>
 		</div>
 	</div>

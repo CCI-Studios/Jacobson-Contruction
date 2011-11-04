@@ -3,19 +3,23 @@
 
 /* @group hmenu */
 .moduletable_hmenu {
-	font-family: Abadi MT Condensed Light;
+	
+}
+
+.moduletable_hmenu.primary {
+	font-family: Abadi MT Condensed Light, Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
-.moduletable_hmenu > ul {
+.moduletable_hmenu.primary > ul {
 	margin: 0;
 	padding: 0;
 	text-align:center;
 }
 
-.moduletable_hmenu > ul > li {
+.moduletable_hmenu.primary > ul > li {
 	background: url('../images/menu_break.png') no-repeat left 3px;
 	display: inline-block;
 	*display: inline;
@@ -24,15 +28,50 @@
 	padding: 0 30px;
 }
 
-.moduletable_hmenu > ul > li:first-child {
+.moduletable_hmenu.primary > ul > li:first-child {
 	background: none;
 }
 
-.moduletable_hmenu > ul > li a {
+.moduletable_hmenu.primary > ul > li a {
 	display: block;
 	padding:15px 0;
 }
 
-.moduletable_hmenu > ul > li a:hover {
+.moduletable_hmenu > ul > li a:hover.primary {
 	background: url('../images/rollover.png') no-repeat center top;
+}
+
+/*SECONDARY MENU*/
+
+.moduletable_hmenu.secondary {
+	font-size: 10px;
+	line-height: 10px;
+}
+
+.moduletable_hmenu.secondary > ul {
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+
+.moduletable_hmenu.secondary > ul > li {
+	border-left: 1px solid #cccccc;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: relative;
+	padding: 0 20px;
+}
+
+.moduletable_hmenu.secondary > ul > li:first-child {
+	border-left: none;
+}
+
+.moduletable_hmenu.secondary > ul > li a {
+	display: block;
+	color: #cccccc;
+}
+
+.moduletable_hmenu.secondary > ul > li a:hover {
+	color: #ffffff;
 }

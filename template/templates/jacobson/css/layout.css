@@ -10,10 +10,50 @@ body {
 }
 
 #wrapper {
-	background: url('../images/bg_wrapper.jpg') no-repeat center;
-	height: 492px;
+	background: url('../images/bg_wrapper.jpg') no-repeat center 0px;
 }
 
 #header {
 	padding-top: 25px;
+	height: 73px;
+}
+
+#masthead {
+	margin: 35px 0px 25px;
+}
+
+#body {
+	background: url('../images/content_shadowTop.png') top center no-repeat;
+	padding-top: 13px;
+}
+
+#body > div {
+	background: #ffffff url('../images/content_baseBoard.png') bottom center no-repeat;
+	padding-bottom: 19px;
+}
+
+#content {
+	border-right: 1px solid #e6e6e6;
+	float:left;
+	margin: 30px 0px 15px;
+	padding: 0px 30px;
+	width: 590px;
+}
+
+#sidebar {
+	float:left;
+	margin: 30px 0px 15px;
+	padding: 0px 35px 0px 30px;
+	width: 215px;
+}
+
+#footer {
+	background: url('../images/footer_lineBreak.png') center bottom no-repeat;
+	padding: 50px 0px 10px;
+}
+
+#copyright {
+	padding: 10px 0px 60px;
+	color: #ffffff;
+	font-size: 10px;
 }
