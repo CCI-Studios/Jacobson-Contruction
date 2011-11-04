@@ -13,3 +13,7 @@ body {
 	background: url('../images/bg_wrapper.jpg') no-repeat center;
 	height: 492px;
 }
+
+#header {
+	padding-top: 25px;
+}
