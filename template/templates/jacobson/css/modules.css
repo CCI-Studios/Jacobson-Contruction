@@ -37,7 +37,7 @@
 	padding:15px 0;
 }
 
-.moduletable_hmenu > ul > li a:hover.primary {
+.moduletable_hmenu.primary > ul > li a:hover {
 	background: url('../images/rollover.png') no-repeat center top;
 }
 
