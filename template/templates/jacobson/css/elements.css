@@ -39,3 +39,15 @@ a:hover {
 #copyright a {
 	color: #ffffff;
 }
+
+
+#sidebar img,
+#content img {
+	border: 1px solid #cacaca;
+	padding: 1px;
+	margin: 5px 7px;
+}
+
+#content img:first-child {
+	margin-left: 0px;
+}
