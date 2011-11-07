@@ -3,7 +3,7 @@
 .left { float: left; }
 .right { float: right; }
 .center {text-align:center;}
-
+.lift {position:relative; top: -20px;}
 .hidden { display: none; }
 
 /* These selection declarations have to be separate
