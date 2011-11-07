@@ -96,13 +96,10 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 					<jdoc:include type="modules" name="footer" style="xhtml" />
 				</div>
 		
-			<div id="footer">
-				<jdoc:include type="modules" name="footer" style="xhtml" />
-			</div>
-		
-			<div id="copyright">
-					<span class="left">&copy; <?php echo date('Y') ?> Jacobson Construction. All Rights Reserved.</span>
-					<span class="right"><a href="http://ccistudios.com">Site by CCI Studios</a></span>
+				<div id="copyright">
+						<span class="left">&copy; <?php echo date('Y') ?> Jacobson Construction. All Rights Reserved.</span>
+						<span class="right"><a href="http://ccistudios.com">Site by CCI Studios</a></span>
+				</div>
 			</div>
 		</div>
 	</div>
