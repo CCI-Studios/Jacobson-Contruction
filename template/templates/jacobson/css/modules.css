@@ -90,10 +90,6 @@
 	padding-top: 0px;
 }
 
-.moduletable_gallery {
-	text-align:center;
-}
-
 /*BOTTOM*/
 .module {float: left; margin-left: 76px;}
 .module:first-child { margin-left: 0;}
