@@ -35,7 +35,6 @@ body {
 #body > div > div { background: white; }
 
 #content {
-	border-right: 1px solid #e6e6e6;
 	float:left;
 	margin: 30px 0px 15px;
 	padding: 0px 30px;
