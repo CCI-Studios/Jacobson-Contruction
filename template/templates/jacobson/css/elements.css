@@ -45,3 +45,14 @@ a:hover { text-decoration: underline; }
 
 .module p { margin: 0px 0px 12px; }
 
+.moduletable a > span,
+.moduletable a > span:active,
+.moduletable a > span:visited,
+.module a > span,
+.module a > span:active,
+.module a > span:visited {
+	color: #000000;
+}
+
+.moduletable a > span:hover,
+.module a > span:hover { text-decoration: underline; }
