@@ -93,3 +93,58 @@
 .moduletable_gallery {
 	text-align:center;
 }
+
+/*BOTTOM*/
+.module {float: left; margin-left: 76px;}
+.module:first-child { margin-left: 0;}
+/*STYLE1*/
+	.module.style1 {
+		background: url('../images/welcome_top.png') top center no-repeat;
+		padding-top:16px;
+		width: 267px;
+	}
+
+	.module.style1 > div {
+		background: url('../images/welcome_bottom.png') bottom center no-repeat;
+		padding-bottom: 101px;
+	}
+
+	.module.style1 > div > div {
+		background: url('../images/welcome_body.png') center repeat-y;
+		padding: 20px 35px 0px 20px;
+	}
+
+/*STYLE2*/
+	.module.style2 {
+		background: url('../images/gallery_top.png') top center no-repeat;
+		padding-top: 15px;
+		width: 254px;
+	}
+	
+	.module.style2 > div {
+		background: url('../images/gallery_bottom.png') bottom center no-repeat;
+		padding-bottom: 88px;
+	}
+	
+	.module.style2 > div > div {
+		background: url('../images/gallery_body.png') center repeat-y;
+		padding: 20px 20px 0;
+		text-align: center;
+	}
+/*STYLE3*/
+	.module.style3 {
+		background: url('../images/blog_top.png') top center no-repeat;
+		padding-top: 15px;
+		width: 266px;
+	}
+
+	.module.style3 > div {
+		background: url('../images/blog_bottom.png') bottom center no-repeat;
+		padding-bottom: 101px;
+	}
+
+	.module.style3 > div > div {
+		background: url('../images/blog_body.png') center repeat-y;
+		padding: 20px 20px 0px 35px;
+	}
+
