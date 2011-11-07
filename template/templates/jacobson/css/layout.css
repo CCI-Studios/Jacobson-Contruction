@@ -1,7 +1,9 @@
 /* layout */
 
-body {
-	background: #000000 url('../images/bg_repeat.jpg') top center repeat-x;
+body { background: #000000 url('../images/bg_repeat.jpg') top center repeat-x; }
+
+.home #masthead {
+	margin: 70px 0px 100px;
 }
 
 .container {
