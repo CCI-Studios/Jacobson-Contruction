@@ -37,11 +37,11 @@ a:hover { text-decoration: underline; }
 #content img,
 .module img {
 	border: 1px solid #cacaca;
-	padding: 1px;
-	margin: 5px 7px;
+	padding: 2px;
+	margin: 0px 8px 12px;
 }
 
 #content img:first-child { margin-left: 0px; }
 
-.module p { margin-bottom: 0px; }
+.module p { margin: 0px 0px 12px; }
 
