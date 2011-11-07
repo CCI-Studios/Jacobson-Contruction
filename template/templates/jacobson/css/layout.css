@@ -28,9 +28,11 @@ body {
 }
 
 #body > div {
-	background: #ffffff url('../images/content_baseBoard.png') bottom center no-repeat;
-	padding-bottom: 19px;
+	background: url('../images/content_baseBoard.png') bottom center no-repeat;
+	padding-bottom: 136px;
 }
+
+#body > div > div { background: white; }
 
 #content {
 	border-right: 1px solid #e6e6e6;
