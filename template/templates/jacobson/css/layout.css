@@ -54,7 +54,6 @@ body { background: #000000 url('../images/bg_repeat.jpg') top center repeat-x; }
 #footer {
 	background: url('../images/footer_lineBreak.png') center bottom no-repeat;
 	padding: 0px 0px 10px;
-	margin-top: -50px;
 }
 
 #copyright {
