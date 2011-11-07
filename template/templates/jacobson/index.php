@@ -72,7 +72,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 			
 			<?php if ($page_sfx !== '_hidden'): ?>
 			<div id="body">
-				<div>
+				<div><div>
 					<div id="content">
 						<jdoc:include type="component" />
 					</div>
@@ -80,7 +80,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 						<jdoc:include type="modules" name="sidebar" style="xhtml" />
 					</div>
 					<div class="clear"></div>
-				</div>
+				</div></div>
 			</div>
 			<?php endif; ?>
 		
