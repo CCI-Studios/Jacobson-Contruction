@@ -34,7 +34,7 @@ body { background: #000000 url('../images/bg_repeat.jpg') top center repeat-x; }
 	padding: 0px 2px 136px;
 }
 
-#body > div > div { background: white; }
+#body > div > div { background: #ffffff; }
 
 #content {
 	float:left;

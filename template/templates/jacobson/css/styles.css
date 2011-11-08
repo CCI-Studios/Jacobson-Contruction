@@ -14,7 +14,6 @@
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; }
 
 .buttonLink {
-	position: relative;
 	display: block;
 	font-size: 9px;
 	text-align: center;
