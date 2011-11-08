@@ -2,9 +2,7 @@
 .moduletable {}
 
 /* @group hmenu */
-.moduletable_hmenu {
-	
-}
+.moduletable_hmenu {}
 
 .moduletable_hmenu.primary {
 	font-family: Abadi MT Condensed Light, Helvetica, Arial, sans-serif;
