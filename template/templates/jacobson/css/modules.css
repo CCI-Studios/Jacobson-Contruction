@@ -33,12 +33,24 @@
 }
 
 .moduletable_hmenu.primary > ul > li a {
+	position: relative;
+	top: -8px;
 	display: block;
-	padding:15px 0;
+	padding:22px 0;
 }
 
 .moduletable_hmenu.primary > ul > li a:hover {
-	background: url('../images/rollover.png') no-repeat center top;
+	background: url('../images/rollover.png') no-repeat center 2px;
+}
+
+.item-122 {
+	position: relative;
+	top: 8px;
+}
+
+.item-122 img {
+	position: relative;
+	top:-3px;
 }
 
 /*SECONDARY MENU*/
