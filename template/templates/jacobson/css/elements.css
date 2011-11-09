@@ -51,6 +51,9 @@ a:hover { text-decoration: underline; }
 
 .module p { margin: 0px 0px 12px; }
 
+#content a,
+#content a:active,
+#content a:visited,
 .moduletable a > span,
 .moduletable a > span:active,
 .moduletable a > span:visited,
@@ -60,5 +63,6 @@ a:hover { text-decoration: underline; }
 	color: #000000;
 }
 
+#content a:hover,
 .moduletable a > span:hover,
 .module a > span:hover { text-decoration: underline; }
