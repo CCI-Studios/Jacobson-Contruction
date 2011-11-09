@@ -93,6 +93,12 @@
 /*BOTTOM*/
 .module {float: left; margin-left: 76px;}
 .module:first-child { margin-left: 0;}
+
+.module > div > div > div {
+	padding-bottom: 35px;
+	position: relative;
+}
+
 /*STYLE1*/
 	.module.style1 {
 		background: url('../images/welcome_top.png') top center no-repeat;
