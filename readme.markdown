@@ -14,5 +14,5 @@ Make sure the follow are installed for Capistrano deployment:
 1. begin editing the template and any other needed components
 
 ## How to deploy
-1. 
-1. 
+1.
+1.
