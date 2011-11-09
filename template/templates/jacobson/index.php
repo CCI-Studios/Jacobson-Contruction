@@ -69,9 +69,11 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 				<jdoc:include type="modules" name="masthead" style="xhtml" />
 				<div class="clear"></div>
 			</div>
+		</div>
 			
-			<?php if ($page_sfx !== '_hidden'): ?>
-			<div id="body">
+		<?php if ($page_sfx !== '_hidden'): ?>
+		<div id="body">
+			<div class="container">
 				<div><div>
 					<div id="content">
 						<jdoc:include type="component" />
@@ -82,17 +84,21 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 					<div class="clear"></div>
 				</div></div>
 			</div>
-			<?php endif; ?>
+		</div>
+		<?php endif; ?>
 			
-			<?php if ($this->countModules('bottom')): ?>
-			<div id="bottom">
+		<?php if ($this->countModules('bottom')): ?>
+		<div id="bottom">
+			<div class="container">
 				<jdoc:include type="modules" name="bottom" style="rounded" />
 				<div class="clear"></div>
 			</div>
-			<?php endif; ?>
-					
-			<div class="lift">
-				<div id="footer">
+		</div>
+		<?php endif; ?>
+				
+		<div class="lift">
+			<div class="container">	
+	 			<div id="footer">
 					<jdoc:include type="modules" name="footer" style="xhtml" />
 				</div>
 		
