@@ -38,7 +38,10 @@ body { background: #000000 url('../images/bg_repeat.jpg') top center repeat-x; }
 	padding: 0px 2px 136px;
 }
 
-#body > div > div > div { background: #ffffff; }
+#body > div > div > div { 
+	background: #ffffff;
+	zoom: 1; /* damn IE */
+}
 
 #bottom { 
 	background: url('../images/bottom_light.png') center bottom no-repeat; 
