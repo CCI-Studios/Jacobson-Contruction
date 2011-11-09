@@ -22,6 +22,9 @@
 	margin: 0 auto;
 	text-transform: uppercase;
 	line-height: 37px;
+}
+
+#bottom .buttonLink {
 	position: absolute;
 	bottom: 0;
 	left: 26%;
