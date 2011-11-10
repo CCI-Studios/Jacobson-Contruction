@@ -12,14 +12,22 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	font-size: 18px;
 	color: #050505;
-	margin-top: 0; }
-
-h2 {text-transform: uppercase;}
+	margin-top: 0;
+	text-transform: uppercase;
+}
 
 h3 { 
 	margin-top: 0px; 
 	text-align: center;
-	text-transform: uppercase;
+}
+
+#content h3 {
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+	color: #989898;
+	text-transform: none;
+	font-weight: bold;
 }
 
 a, a:active, a:visited { color: #000000; text-decoration: none; }
