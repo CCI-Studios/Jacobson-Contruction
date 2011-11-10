@@ -47,7 +47,6 @@ a:hover { text-decoration: underline; }
 #copyright a { color: #ffffff; }
 
 #sidebar img,
-#content img,
 .module img {
 	border: 1px solid #cacaca;
 	padding: 2px;

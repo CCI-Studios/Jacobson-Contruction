@@ -31,4 +31,8 @@
 	margin-left: -52px;
 }
 
+.contentImg {
+	border: 1px solid #cacaca;
+	padding: 2px;
+	margin: 0px 8px 12px;
 }
