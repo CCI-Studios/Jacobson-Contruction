@@ -54,6 +54,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 	<?php else: ?>
 		<script src="/templates/<?= $this->template ?>/js/libs/modernizr-1.7.min.js"></script>
 	<?php endif; ?>
+	<link rel="shortcut icon" type="image/x-icon" href="/templates/jacobson/favicon.ico" />
 </head>
 
 <body class="<?= $menu ?>">
