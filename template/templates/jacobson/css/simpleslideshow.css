@@ -1,0 +1,141 @@
+a:active, a:focus {
+    outline: 0 none;
+}
+table.contentpaneopen {
+    width: 100%;
+}
+li.sigProClear {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    clear: both;
+    float: none !important;
+    height: 0 !important;
+    line-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto;
+}
+ul.sigProArtistic {
+    background: none repeat scroll 0 0 #F5F3EE;
+    clear: both;
+    list-style: none outside none;
+    margin: 8px auto !important;
+    overflow: hidden;
+    padding: 8px 0 !important;
+}
+ul.sigProArtisticSingleThumb {
+    clear: none;
+    float: left;
+    margin: 0 !important;
+}
+ul.sigProArtistic {
+}
+ul.sigProArtistic li.sigProThumb {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    float: left;
+    margin: 2px;
+    padding: 0;
+}
+ul.sigProArtistic li.sigProThumb span.sigProLinkOuterWrapper {
+}
+ul.sigProArtistic li.sigProThumb span.sigProLinkWrapper {
+}
+ul.sigProArtistic li.sigProThumb a.sigProLink, ul.sigProArtistic li.sigProThumb a.sigProLink:hover {
+    display: block;
+    margin: 0;
+    padding: 0 8px 8px;
+    position: relative;
+}
+ul.sigProArtistic li.sigProThumb a.sigProLink {
+    background: url("../images/bg.png") repeat-x scroll center top #FFFFFF;
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 1px solid #FFFFFF;
+    color: #333333;
+}
+ul.sigProArtistic li.sigProThumb a.sigProLink:hover {
+    background: url("../images/bg_hover.png") repeat-x scroll center top #000000;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+ul.sigProArtistic li.sigProThumb a.sigProLink img.sigProImg, ul.sigProArtistic li.sigProThumb a.sigProLink:hover img.sigProImg {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: medium none;
+    display: block;
+    margin: 50px 0 0;
+    padding: 0;
+	margin-top: 3px;
+}
+ul.sigProArtistic span.sigProPseudoCaption, ul.sigProArtistic span.sigProCaption {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    left: 0;
+    margin: 0 8px;
+    padding: 6px 0 4px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 0;
+}
+ul.sigProArtistic span.sigProPseudoCaption {
+    background: url("../images/bg.png") repeat-x scroll center top #FFFFFF;
+}
+ul.sigProArtistic li.sigProThumb a.sigProLink:hover span.sigProPseudoCaption {
+    background: url("../images/bg_hover.png") repeat-x scroll center top #000000;
+}
+ul.sigProArtistic span.sigProPseudoCaption b {
+    visibility: hidden;
+}
+span.sigProPopupCaption {
+    color: #C63C13;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+a.sigProDownloadLink, a.sigProDownloadLink:hover {
+    background: url("../images/disk.png") no-repeat scroll left center transparent;
+    padding: 4px 0 4px 20px;
+}
+div.sigProModulePosition {
+    background: none repeat scroll 0 0 #FFFFDD;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    margin: 8px 0;
+    padding: 4px;
+    text-align: center;
+}
+body.sigProIsIE6 {
+}
+body.sigProIsIE6 ul.sigProArtistic li.sigProThumb a.sigProLink, body.sigProIsIE6 ul.sigProArtistic li.sigProThumb a.sigProLink:hover {
+    float: left;
+}
+body.sigProIsIE6 ul.sigProArtistic span.sigProPseudoCaption, body.sigProIsIE6 ul.sigProArtistic span.sigProCaption {
+    bottom: 0;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    left: 0;
+    padding: 6px 4px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+body.sigProIsIE7 {
+}
+body.sigProIsIE7 ul.sigProArtistic li.sigProThumb a.sigProLink, body.sigProIsIE7 ul.sigProArtistic li.sigProThumb a.sigProLink:hover {
+    float: left;
+}
+a.sigProFlickrSetLink {
+    clear: left;
+    display: block;
+    padding: 2px 8px;
+}
+.sigProPrintMessage {
+    display: none;
+}
