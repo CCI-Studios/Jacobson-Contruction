@@ -16,5 +16,5 @@ ul.sigProClassic li.sigProThumb {
 }
 
 ul.sigProClassic {
-	padding: 0;
+	padding: 0px 0px 0px 8px !important;
 }
