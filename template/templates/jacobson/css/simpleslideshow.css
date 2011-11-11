@@ -16,7 +16,10 @@ ul.sigProClassic li.sigProThumb {
 }
 
 ul.sigProClassic {
-	position: relative;
 	padding: 0px 0px 8px 0px !important;
-	left:-8px;
+}
+
+#content ul.sigProClassic {
+	position: relative;
+	left: -8px;
 }
