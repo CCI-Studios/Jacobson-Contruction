@@ -8,8 +8,7 @@ ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
 }
 
 ul.sigProClassic li.sigProThumb span.sigProLinkOuterWrapper {
-	background: none !important;
-	*zoom: 1:
+	background: none;
 }
 
 ul.sigProClassic li.sigProThumb {
