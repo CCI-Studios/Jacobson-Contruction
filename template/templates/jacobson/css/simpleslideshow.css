@@ -1,3 +1,12 @@
 ul.sigProArtistic li.sigProThumb a.sigProLink img.sigProImg, ul.sigProArtistic li.sigProThumb a.sigProLink:hover img.sigProImg {
 	margin-top: 3px;
 }
+
+ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
+	padding: 3px;
+	margin: 0px;
+}
+
+ul.sigProClassic li.sigProThumb span.sigProLinkOuterWrapper {
+	background: none;
+}
