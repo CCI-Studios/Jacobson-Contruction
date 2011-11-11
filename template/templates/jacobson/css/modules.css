@@ -58,8 +58,6 @@
 	top:-3px;
 }
 
-
-
 /*SECONDARY MENU*/
 
 .moduletable_hmenu.secondary {
@@ -94,6 +92,10 @@
 #sidebar .moduletable:first-child {
 	border-top: none;
 	padding-top: 0px;
+}
+
+.newsfeed {
+	padding:0;
 }
 
 /*BOTTOM*/
