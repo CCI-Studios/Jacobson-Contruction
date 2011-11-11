@@ -123,7 +123,7 @@ if ($feed != false)
 			?>
 			</ul>
 			
-			<a class="buttonLink" title="View All" href="http://jacobsonconstruction.blogspot.com/feeds/posts/default">
+			<a target="_blank" class="buttonLink" title="View All" href="http://jacobsonconstruction.blogspot.com/feeds/posts/default">
 				View Blog
 			</a>
 
