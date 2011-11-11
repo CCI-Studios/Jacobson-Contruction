@@ -45,6 +45,10 @@
 	background: url('../images/rollover.png') no-repeat center 2px;
 }
 
+.moduletable_hmenu.primary .item-105 a:hover { /*removes rollover img for blogger link*/
+	background: none;
+}
+
 .item-105 {
 	top: 8px;
 }
@@ -53,6 +57,8 @@
 	position: relative;
 	top:-3px;
 }
+
+
 
 /*SECONDARY MENU*/
 
