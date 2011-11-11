@@ -98,7 +98,8 @@
 	padding:0;
 }
 
-#sidebar li {
+#sidebar li,
+.feed li {
 	list-style: none;
 }
 
