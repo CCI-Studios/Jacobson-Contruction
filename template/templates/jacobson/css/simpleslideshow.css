@@ -10,3 +10,7 @@ ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
 ul.sigProClassic li.sigProThumb span.sigProLinkOuterWrapper {
 	background: none;
 }
+
+ul.sigProClassic li.sigProThumb {
+	margin: 5px 0 5px 9px;
+}
