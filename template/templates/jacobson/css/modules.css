@@ -98,6 +98,10 @@
 	padding:0;
 }
 
+#sidebar li {
+	list-style: none;
+}
+
 /*BOTTOM*/
 .module {float: left; margin-left: 76px;}
 .module:first-child { margin-left: 0;}
