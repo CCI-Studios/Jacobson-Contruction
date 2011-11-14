@@ -19,6 +19,10 @@ ul.sigProClassic {
 	padding: 0px 0px 8px 0px !important;
 }
 
+.ie7 li.sigProClear { /*GETS RID OF WHITE SPACE in IE7*/
+	display: none;
+}
+
 #content ul.sigProClassic {
 	position: relative;
 	left: -8px;
