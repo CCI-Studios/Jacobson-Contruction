@@ -17,7 +17,7 @@
 	display: block;
 	font-size: 9px;
 	text-align: center;
-	background: url('../images/button_link.png') center no-repeat;
+	background: url('../images/button_link.png') bottom center no-repeat;
 	width: 104px;
 	margin: 0 auto;
 	text-transform: uppercase;
@@ -29,6 +29,11 @@
 	bottom: 0;
 	left: 50%;
 	margin-left: -52px;
+}
+
+#sidebar .buttonLink {
+	position:absolute;
+	margin-left:62px;
 }
 
 .contentImg {
