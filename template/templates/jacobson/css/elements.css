@@ -8,7 +8,7 @@ body, select, input, textarea {
 @font-face {
 	font-family: 'Abadi MT Condensed Light';
 	src: url('../resources/Abadi-MT-Condensed-Light-Regular.eot') format('eot'); /* IE9 Compat Modes */
-	src: url('../resources/Abadi-MT-Condensed-Light-Regular.eot') format('embedded-opentype'),
+	src: url('../resources/Abadi-MT-Condensed-Light-Regular.eot#iefix') format('embedded-opentype'),
 	     url('../resources/Abadi-MT-Condensed-Light-Regular.ttf')  format('truetype');
 	}	
 	
