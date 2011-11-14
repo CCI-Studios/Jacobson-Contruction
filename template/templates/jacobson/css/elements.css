@@ -5,6 +5,16 @@ body, select, input, textarea {
 	font-size: 12px;
 }
 
+@font-face {
+ font-family: 'Abadi MT Condensed Light';
+ src: url("../resources/Abadi-MT-Condensed-Light-Regular.eot") /* EOT file for IE */
+}
+
+@font-face {
+ font-family: 'Abadi MT Condensed Light';
+ src: url("/templates/RunStrong/resources/Abadi-MT-Condensed-Light-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 
 h1, h2, h3, h4, h5, h6 { 
