@@ -6,12 +6,12 @@ body, select, input, textarea {
 }
 
 @font-face {
- 	font-family: 'Abadi MT Condensed Light';
-	src: url('../resources/Abadi-MT-Condensed-Light-Regular.eot?') format('eot'), url('../resources/Abadi-MT-Condensed-Light-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
+	font-family: 'Abadi MT Condensed Light';
+	src: url('../resources/Abadi-MT-Condensed-Light-Regular.eot'); /* IE9 Compat Modes */
+	src: url('../resources/Abadi-MT-Condensed-Light-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../resources/Abadi-MT-Condensed-Light-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+	}
+	
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 
 h1, h2, h3, h4, h5, h6 { 
