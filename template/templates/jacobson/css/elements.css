@@ -41,9 +41,10 @@ h4 {
 	text-transform: none;
 	font-weight: bold;
 }
-a { outline: 0; }
+
 a, a:active, a:visited { color: #000000; text-decoration: none; }
 a:hover { text-decoration: underline; }
+a img { outline: 0; }
 
 .moduletable_hmenu a, 
 .moduletable_hmenu a:active, 
