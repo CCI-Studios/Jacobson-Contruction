@@ -10,7 +10,7 @@ set :repository,  "git@github.com:CCI-Studios/Jacobson-Contruction.git"
 set :scm, :git
 
 # ssh settings
-set :user, "staging"
+set :user, "jacobson"
 set :use_sudo, false
 
 # Joomla

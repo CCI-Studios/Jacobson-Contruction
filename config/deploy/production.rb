@@ -5,6 +5,6 @@ set :branch, "master"
 role :app, "jacobsonconstruction.ca"
 
 # directories
-set :deploy_to, "/home/jacobson/subdomains/dev"
+set :deploy_to, "/home/jacobson/subdomains/live"
 set :public, "#{deploy_to}/public_html"
 set :extensions, %w[public template]
